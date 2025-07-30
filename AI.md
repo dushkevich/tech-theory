@@ -24,3 +24,14 @@ LLM
 ---
 https://github.blog/ai-and-ml/llms/the-architecture-of-todays-llm-applications/
 ---
+
+RAG
+---
+https://www.datacamp.com/blog/what-is-retrieval-augmented-generation-rag
+---
+
+Vector database
+---
+https://www.cloudflare.com/learning/ai/what-is-vector-database/
+---
+
