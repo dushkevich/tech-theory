@@ -20,6 +20,11 @@ https://www.promptingguide.ai/introduction/elements
 https://www.promptingguide.ai/techniques
 ---
 
+API
+---
+https://platform.openai.com/docs/overview
+---
+
 LLM
 ---
 https://github.blog/ai-and-ml/llms/the-architecture-of-todays-llm-applications/
