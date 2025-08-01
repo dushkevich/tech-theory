@@ -107,8 +107,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "ef7f1cae6479a9b3",
@@ -201,11 +200,15 @@
   },
   "active": "3e111609ac3e635d",
   "lastOpenFiles": [
+    "continuous_integration_&_de.md",
+    "Ansible.md",
+    "AI.md",
+    "Untitled.md",
+    "HELM.md",
+    "GO.md",
     "Istio.md",
     "Azure.md",
-    "AI.md",
     "start_page.md",
-    "README.md",
-    "continuous_integration_&_de.md"
+    "README.md"
   ]
 }
