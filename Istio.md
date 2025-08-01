@@ -8,10 +8,5 @@ but it is not so important, the important part is Istio, and how it used.
 
 decomposing my task I realize (the advise that my teem leader gave me) that it is better to start with enabling the external services 
 
-### OK, to be completely honest, this story not only about istio, but also about GO and helm
+### OK, to be completely honest, this story not only about istio, but also about [[GO]] and [[HELM]]
 
-
-
-
-
-[[HELM]]
