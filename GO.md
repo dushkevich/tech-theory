@@ -1,1 +1,1 @@
-go template language {{- soUgl}}
+go template language {{- soUgly }}
