@@ -1,12 +1,17 @@
 ## deployment
 
-concept drift and data drift
+![[Pasted image 20250915151024.png]]
 
-detect and manage changes
+concept drift and data drift
+* detect and manage changes
 
 software engineering issues
 * realtime or batch
-* cloud vs. edge
+* cloud vs. edge/browser
+* compute resources (cpu/gpu/memory)
+* latency, throughput (qps)
+* logging
+* security and privacy
 
 
 
