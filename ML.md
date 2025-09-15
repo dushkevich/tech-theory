@@ -119,3 +119,6 @@ ___
 performance on disproportionally important examples
 performance on key slices of the dataset
 rare classes
+
+establish a baseline
+
