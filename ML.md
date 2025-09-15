@@ -13,3 +13,7 @@ model + hyperparameters + data => training => error analysis
 2. doing well on dev/test set
 3. doing well on business metrics/
 
+___
+
+performance on disproportionally important examples
+performance on key slices of the dataset
