@@ -107,3 +107,6 @@ model-centric view (take the data you have and develop a model that does as well
 data-centric view (the quality of the data is paramount. the most models will perform well on good data)
 
 data augmentation
+
+![[Pasted image 20250915210510.png]]
+
