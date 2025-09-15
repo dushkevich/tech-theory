@@ -45,3 +45,5 @@ sanity-check for code and alg
 * try to overfit a small training dataset before training a large one
 
 ___
+Error analysis
+
