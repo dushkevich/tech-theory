@@ -64,5 +64,20 @@ useful metrics for tag
 
 prioritizing
 
-![[Pas
+![[Pasted image 20250915181711.png]]
+
+- how much room for improvment
+- how fricwently the category appeat
+- how easy to improve 
+- how important the category
+
+to improve
+- collect more data
+- use augmentation to get more data
+- improve lable accuracy/data quality
+
+
+skewed datasets
+
+
 
