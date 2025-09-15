@@ -110,3 +110,6 @@ data augmentation
 
 ![[Pasted image 20250915210510.png]]
 
+![[Pasted image 20250915210823.png]]
+
+create realistic examples that (i) the algorithm does poorly on, but (ii) humans (on other baseline) do well on
