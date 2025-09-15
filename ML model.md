@@ -47,3 +47,11 @@ sanity-check for code and alg
 ___
 Error analysis
 
+![[Pasted image 20250915180825.png]]
+
+LandingLens
+
+examine/tag example <=> purpose tags
+* specific class labels |
+* image properties
+* other meta-data
