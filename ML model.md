@@ -88,3 +88,12 @@ skewed datasets
 ![[Pasted image 20250915183019.png]]
 
 ![[Pasted image 20250915183407.png]]
+
+
+Performance auditing
+
+check for accuracy, fairness/bias, and other problems
+1. brainstorm the ways the system might go wrong
+   * performance on subset of data (ethnicity, gender)
+   * how common are certain errors
+   * performance on rare classe
