@@ -52,6 +52,17 @@ Error analysis
 LandingLens
 
 examine/tag example <=> purpose tags
-* specific class labels |
-* image properties
+* specific class labels |  user dempgrafic
+* image properties    | product features/category
 * other meta-data
+
+useful metrics for tag
+- what fracrion of errors has this tag
+- of all data with that tag, what fraction is misclassified
+- what fraction of old data uses this tag
+- how much room for improvment for this tag 
+
+prioritizing
+
+![[Pas
+
