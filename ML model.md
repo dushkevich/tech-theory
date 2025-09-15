@@ -113,3 +113,9 @@ data augmentation
 ![[Pasted image 20250915210823.png]]
 
 create realistic examples that (i) the algorithm does poorly on, but (ii) humans (on other baseline) do well on
+checklist:
+- does it sound realistic
+- is the x -> y mapping clear? (can human recognize )
+- is algorithm currently doing poorly on?
+
+model iteration
