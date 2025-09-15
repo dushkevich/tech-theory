@@ -81,6 +81,8 @@ skewed datasets
 
 ![[Pasted image 20250915182241.png]]
 
-
 ![[Pasted image 20250915182652.png]]
 
+![[Pasted image 20250915182826.png]]
+
+![[Pasted image 20250915183019.png]]
