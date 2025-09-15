@@ -15,11 +15,18 @@ software engineering issues
 
 monitoring
 * brainstorm the things that could go wrong
-* brainstorm a few statistic/
+* brainstorm a few statistic/metrics that will detect the problem
+* it is ok to use many metrics initially and gradually remove the ones you find not useful
 ___
 * software metrics
 * input metrics
 * output metrics
+___
+* set thresholds for alarms
+* adapt metrics and thresholds over time
+
+ml pipline
+
 
 
 ```python
