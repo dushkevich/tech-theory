@@ -119,3 +119,10 @@ checklist:
 - is algorithm currently doing poorly on?
 
 model iteration
+
+can adding data hurt?
+
+for unstructured data problems if
+- model is large (low bias)
+- the mapping x -> y is clear (given only the input x, humans can make accurate predictions)
+then adding data rarely hurts accuracy
