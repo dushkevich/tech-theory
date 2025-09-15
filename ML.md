@@ -1,5 +1,14 @@
 ## deployment
-simpler then it seems
+
+concept drift and data drift
+
+detect and manage changes
+
+software engineering issues
+* realtime or batch
+* cloud vs. edge
+
+
 
 ## select a model
 
