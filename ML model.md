@@ -96,4 +96,6 @@ check for accuracy, fairness/bias, and other problems
 1. brainstorm the ways the system might go wrong
    * performance on subset of data (ethnicity, gender)
    * how common are certain errors
-   * performance on rare classe
+   * performance on rare classes
+1. establish metrics to access performance against these issues on appropriate slices of data
+2. get business/product owner buy-in
