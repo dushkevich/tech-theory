@@ -121,4 +121,15 @@ performance on key slices of the dataset
 rare classes
 
 establish a baseline
+![[Pasted image 20250915173833.png]]
+
+unstructured/structured data
+image             database
+audio
+text
+
+* HLP
+* Literature search for state-of-the-art/oppen source
+* Quick-and-dirty implementation
+* performance of older systems
 
