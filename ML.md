@@ -13,6 +13,15 @@ software engineering issues
 * logging
 * security and privacy
 
+monitoring
+* brainstorm the things that could go wrong
+* brainstorm a few statistic/
+___
+* software metrics
+* input metrics
+* output metrics
+
+
 ```python
 import os
 import cv2
@@ -27,7 +36,6 @@ from fastapi import FastAPI, UploadFile, File, HTTPException
 from fastapi.responses import StreamingResponse
 
 dir_name = "images_uploaded"
-
 if not os.path.exists(dir_name):
     os.mkdir(dir_name)
 
@@ -48,11 +56,8 @@ def prediction(file: UploadFile = File(...)):
     # 1. VALIDATE INPUT FILE
 
     filename = file.filename
-
     fileExtension = filename.split(".")[-1] in ("jpg", "jpeg", "png")
-
     if not fileExtension:
-
         raise HTTPException(status_code=415, detail="Unsupported file provided.")
 
     # 2. TRANSFORM RAW IMAGE INTO CV2 image
