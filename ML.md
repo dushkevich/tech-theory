@@ -21,12 +21,13 @@ ___
 * software metrics
 * input metrics
 * output metrics
+*how quickly do they change (user data usually slower drift/b2b can shift fast)
 ___
 * set thresholds for alarms
 * adapt metrics and thresholds over time
 
 ml pipline
-
+example => user data - user profile - recommendation system - product recommendation
 
 
 ```python
