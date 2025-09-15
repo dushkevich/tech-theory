@@ -31,3 +31,9 @@ text
 Baseline helps to indicates what might be possible. In some cases (such as HLP) is also gives a sense of what is irreducible error/Bayes error
 
 
+TIPS
+start
+* literature search to see what's possible (courses, blogs, open-source projects)
+* find open-source implementation if available
+* a reasonable algorithm with **good data** will often outperform a great algorithm with not so good data
+* 
