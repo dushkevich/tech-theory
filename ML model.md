@@ -99,3 +99,11 @@ check for accuracy, fairness/bias, and other problems
    * performance on rare classes
 1. establish metrics to access performance against these issues on appropriate slices of data
 2. get business/product owner buy-in
+
+data integration
+
+model-centric view (take the data you have and develop a model that does as well as possible)
+
+data-centric view (the quality of the data is paramount. the most models will perform well on good data)
+
+data augmentation
