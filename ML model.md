@@ -41,3 +41,7 @@ should you take into account deployment constraints when picking a model?
 - **Yes** if baseline is already established and goal is to build and deploy
 - **No** (or not necessary), if purpose is to establish a baseline and determine what is possible and might be worth pursuing
 
+sanity-check for code and alg
+* try to overfit a small training dataset before training a large one
+
+___
