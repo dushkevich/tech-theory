@@ -25,7 +25,7 @@ audio
 text
 
 * HLP
-* Literature search for state-of-the-art/oppen source
+* Literature search for state-of-the-art/open source
 * Quick-and-dirty implementation
 * performance of older systems
 Baseline helps to indicates what might be possible. In some cases (such as HLP) is also gives a sense of what is irreducible error/Bayes error
@@ -36,4 +36,8 @@ start
 * literature search to see what's possible (courses, blogs, open-source projects)
 * find open-source implementation if available
 * a reasonable algorithm with **good data** will often outperform a great algorithm with not so good data
-* 
+
+should you take into account deployment constraints when picking a model?
+- **Yes** if baseline is already established and goal is to build and deploy
+- **No** (or not necessary), if purpose is to establish a baseline and determine what is possible and might be worth pursuing
+
