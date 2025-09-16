@@ -128,6 +128,15 @@ for unstructured data problems if
 then adding data rarely hurts accuracy
 
 adding features
-structured data
+
 ![[Pasted image 20250916120934.png]]
+
+other food delivery example
+- only tea/coffee
+- only pizza
+what are the added features that can help make a decision?
+product recommendation
+collaborative filtering -> content based filtering
+
+
 
