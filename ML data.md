@@ -30,3 +30,5 @@ small <= 10000
 big >10000
 - emphasis data process
 
+![[Pasted image 20250916175707.png]]
+
