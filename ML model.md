@@ -155,3 +155,10 @@ desirable features
 - information needed to replicate results
 - experiment results, ideally with summary metrics/analysis
 - resource monitoring, visualization, model error analyses
+
+![[Pasted image 20250916125058.png]]
+
+https://blog.ml.cmu.edu/2020/08/31/3-baselines/
+https://techcommunity.microsoft.com/t5/azure-ai/responsible-machine-learning-with-error-analysis/ba-p/2141774
+https://neptune.ai/blog/ml-experiment-tracking
+
