@@ -23,4 +23,9 @@ struc
 - may be difficult to obtain more data
 - human labeling may not be possible
 
-small <=
+small <= 10000
+- clean labels a critical
+- can manualy look
+- can get all the labels talk to each other
+big >10000
+- emphasis data process
