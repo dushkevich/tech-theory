@@ -4,4 +4,5 @@ why is data definition is hard?
 
 ![[Pasted image 20250916170313.png]]
 
+![[Pasted image 20250916170846.png]]
 
