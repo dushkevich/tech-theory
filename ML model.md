@@ -144,4 +144,14 @@ experiment tracking
 
 what to track
 - algorithm/code versioning
-- dataset u
+- dataset used
+- hyperparameters
+- result
+tracking tools
+- text files
+- spreadsheet
+- experiment tracking system
+desirable features
+- information needed to replicate results
+- experiment results, ideally with summary metrics/analysis
+- resource monitoring, visualization, model error analyses
