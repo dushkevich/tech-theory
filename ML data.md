@@ -32,3 +32,13 @@ big >10000
 
 ![[Pasted image 20250916175707.png]]
 
+![[Pasted image 20250916175929.png]]
+
+big data problems can have small data challenges too
+big dataset with long tail of rare events will have small data problems
+- web search
+- self driven car
+- product recommendation system
+
+Improving label consistency
+- have multiple labelers 
