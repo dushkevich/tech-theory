@@ -13,4 +13,14 @@ data definition questions
 - what is the target label y?
   - how can we ensure labelers give consistent labels?
 
-![[Pasted image 20250916171804.png]]
+![[Pasted image 20250916172125.png]]
+
+unstrct
+- may or may not have huge collection of unlabled examples x
+- humans can lable more data
+- data augmentation more likle to be helpful
+struc
+- may be difficult to obtain more data
+- human labeling may not be possible
+
+small <=
