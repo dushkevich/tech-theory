@@ -159,10 +159,7 @@ desirable features
 ![[Pasted image 20250916125058.png]]
 
 ### Lab
-
-```py
-
-```
+https://github.com/https-deeplearning-ai/machine-learning-engineering-for-production-public/blob/main/course1/week2-ungraded-lab/C1W2_Ungraded_Lab_Birds_Cats_Dogs.ipynb
 
 https://blog.ml.cmu.edu/2020/08/31/3-baselines/
 
