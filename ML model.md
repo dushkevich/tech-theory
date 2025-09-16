@@ -129,3 +129,5 @@ then adding data rarely hurts accuracy
 
 adding features
 structured data
+![[Pasted image 20250916120934.png]]
+
