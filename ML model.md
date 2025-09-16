@@ -158,7 +158,11 @@ desirable features
 
 ![[Pasted image 20250916125058.png]]
 
+### Lab
 
+```py
+
+```
 
 https://blog.ml.cmu.edu/2020/08/31/3-baselines/
 
