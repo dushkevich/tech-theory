@@ -126,3 +126,6 @@ for unstructured data problems if
 - model is large (low bias)
 - the mapping x -> y is clear (given only the input x, humans can make accurate predictions)
 then adding data rarely hurts accuracy
+
+adding features
+structured data
