@@ -138,5 +138,10 @@ what are the added features that can help make a decision?
 product recommendation
 collaborative filtering -> content based filtering
 
+![[Pasted image 20250916121909.png]]
 
+experiment tracking
 
+what to track
+- algorithm/code versioning
+- dataset u
