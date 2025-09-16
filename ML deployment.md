@@ -29,6 +29,8 @@ ___
 ml pipline
 example => user data - user profile - recommendation system - product recommendation
 
+### Lab
+https://github.com/https-deeplearning-ai/machine-learning-engineering-for-production-public/blob/version_3/course1/week1-ungraded-lab/client.ipynb
 
 ```python
 import os
