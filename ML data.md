@@ -54,4 +54,6 @@ small data
 - usually small number of labelers
 - can ask labelers to discuss specific labels
 big data
-- get consistent definition with s
+- get consistent definition with small group
+- then send labeling instructions to labelers
+- can consider having multiple labelers label every example and using voting or consensus labels for accuracy
