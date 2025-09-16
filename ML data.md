@@ -41,4 +41,8 @@ big dataset with long tail of rare events will have small data problems
 - product recommendation system
 
 Improving label consistency
-- have multiple labelers 
+- have multiple labelers lable same example
+- when disagreement have MLE, SME and/or discuss defenition of y the reach agreement
+- if lablers say x doesn't contain enough information change x
+- literate until it is hard to significantly increase agreement
+![[Pasted image 20250916180910.png]]
