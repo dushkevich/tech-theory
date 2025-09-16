@@ -101,5 +101,10 @@ def prediction(file: UploadFile = File(...)):
     # Return the image as a stream specifying media type
     return StreamingResponse(file_image, media_type="image/jpeg")
 ```
+https://towardsdatascience.com/machine-learning-in-production-why-you-should-care-about-data-and-concept-drift-d96d0bc907fb
+
+https://christophergs.com/machine%20learning/2020/03/14/how-to-monitor-machine-learning-models/
+
+https://youtu.be/06-AZXmwHjo
 
 [[ML model]]
