@@ -123,3 +123,7 @@ https://cs230.stanford.edu/blog/datapipeline/#best-practices
 https://blog.tensorflow.org/2021/01/ml-metadata-version-control-for-ml.html
 
 https://cloud.google.com/blog/products/ai-machine-learning/key-requirements-for-an-mlops-foundation
+
+
+[[ML deployment]]
+[[ML model]]
