@@ -104,3 +104,5 @@ Production phase
 - after project utility is established, use more sophisticated tools to make sure the data pipline is replicable
 - e.g. TensorFlow, Transform, Apache Beam, Airflow...
 
+![[Pasted image 20250917164757.png]]
+
