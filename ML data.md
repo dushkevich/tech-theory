@@ -95,7 +95,7 @@ data pipeline
 
 ![[Pasted image 20250917163143.png]]
 
-POC and profuction phases
+POC and production phases
 POC (proof of concept)
 - goal is to decide if the application is worcable and worth deploying
 - focus on getting the prototype to work
