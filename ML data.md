@@ -114,3 +114,5 @@ useful for
 - error analysys, spotting unexpected effects
 - keeping track of data provenance
 
+![[Pasted image 20250917170503.png]]
+
