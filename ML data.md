@@ -57,3 +57,5 @@ big data
 - get consistent definition with small group
 - then send labeling instructions to labelers
 - can consider having multiple labelers label every example and using voting or consensus labels for accuracy
+
+why measure HPL
