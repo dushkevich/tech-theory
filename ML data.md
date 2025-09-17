@@ -96,7 +96,11 @@ data pipeline
 ![[Pasted image 20250917163143.png]]
 
 POC and profuction phases
-POC
+POC (proof of concept)
 - goal is to decide if the application is worcable and worth deploying
 - focus on getting the prototype to work
-- it is ok if pre-procce
+- it is ok if pre-proccessing is manual. but take extensive notes/comments
+Production phase
+- after project utility is established, use more sophisticated tools to make sure the data pipline is replicable
+- e.g. TensorFlow, Transform, Apache Beam, Airflow...
+
