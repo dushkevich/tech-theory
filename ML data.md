@@ -75,3 +75,6 @@ when HLP < 100% may indicate ambiguous labeling instruction
 ![[Pasted image 20250917134229.png]]
 
 obtaining data
+
+![[Pasted image 20250917134716.png]]
+
