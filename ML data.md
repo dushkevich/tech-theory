@@ -59,3 +59,9 @@ big data
 - can consider having multiple labelers label every example and using voting or consensus labels for accuracy
 
 why measure HPL
+
+![[Pasted image 20250917132716.png]]
+
+- in academia establish and beat a respectable benchmark to support publication
+- hlp helps establish a reasonable target
+- prove that ML system is superior to human doing the job and thus the business should adopt it (use with caution)
