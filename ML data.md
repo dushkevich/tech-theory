@@ -65,3 +65,6 @@ why measure HPL
 - in academia establish and beat a respectable benchmark to support publication
 - hlp helps establish a reasonable target
 - prove that ML system is superior to human doing the job and thus the business should adopt it (use with caution)
+
+![[Pasted image 20250917133343.png]]
+
