@@ -78,3 +78,13 @@ obtaining data
 
 ![[Pasted image 20250917134716.png]]
 
+![[Pasted image 20250917135043.png]]
+
+labeling data
+- options: in-house vs outsourced vs crowdsourced
+- having MLEs label data is expensive. But doing this for just a few days is usually fine
+- why is qualified to label?
+   - speech any fluent
+   - factory inspection, medical diagnasis - SME
+   - recommender system maybe impossible to label well
+- don't increase data by more  than 10x at time
