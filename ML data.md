@@ -89,3 +89,7 @@ labeling data
    - recommender system maybe impossible to label well
 - don't increase data by more  than 10x at time
 
+data pipeline
+
+![[Pasted image 20250917161117.png]]
+
