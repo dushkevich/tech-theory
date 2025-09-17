@@ -70,4 +70,8 @@ why measure HPL
 
 ![[Pasted image 20250917133937.png]]
 
-when HLP < 100% may indicate ambigues labeling instruction
+when HLP < 100% may indicate ambiguous labeling instruction
+
+![[Pasted image 20250917134229.png]]
+
+obtaining data
