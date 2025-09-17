@@ -93,3 +93,10 @@ data pipeline
 
 ![[Pasted image 20250917161117.png]]
 
+![[Pasted image 20250917163143.png]]
+
+POC and profuction phases
+POC
+- goal is to decide if the application is worcable and worth deploying
+- focus on getting the prototype to work
+- it is ok if pre-procce
