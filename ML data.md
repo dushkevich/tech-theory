@@ -124,6 +124,7 @@ https://blog.tensorflow.org/2021/01/ml-metadata-version-control-for-ml.html
 
 https://cloud.google.com/blog/products/ai-machine-learning/key-requirements-for-an-mlops-foundation
 
+!git clone https://github.com/https-deeplearning-ai/MLEP-public.git
 
 [[ML deployment]]
 [[ML model]]
