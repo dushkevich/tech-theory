@@ -106,3 +106,11 @@ Production phase
 
 ![[Pasted image 20250917164757.png]]
 
+meta-data
+examples: 
+- manifacturing visual inspection: time, factory, line#, camera settings, phone model, inspector ID
+- speech recognition: device type, labeler ID, VAD model ID
+useful for
+- error analysys, spotting unexpected effects
+- keeping track of data provenance
+
