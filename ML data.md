@@ -85,6 +85,7 @@ labeling data
 - having MLEs label data is expensive. But doing this for just a few days is usually fine
 - why is qualified to label?
    - speech any fluent
-   - factory inspection, medical diagnasis - SME
+   - factory inspection, medical diagnosis - SME
    - recommender system maybe impossible to label well
 - don't increase data by more  than 10x at time
+
