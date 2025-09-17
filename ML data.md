@@ -116,3 +116,10 @@ useful for
 
 ![[Pasted image 20250917170503.png]]
 
+https://csgaobb.github.io/Projects/DLDL.html
+
+https://cs230.stanford.edu/blog/datapipeline/#best-practices
+
+https://blog.tensorflow.org/2021/01/ml-metadata-version-control-for-ml.html
+
+https://cloud.google.com/blog/products/ai-machine-learning/key-requirements-for-an-mlops-foundation
