@@ -16,8 +16,16 @@ no reproductivity
 no separated from engineers
 good for POC -> production
 2. automated training
-training ouoeline
-experement tracking
+training pipeline
+experiment tracking
 model registry
+-
 low friction deployment
 ds work with eng
+3. automated deployment 
+easy to deploy model
+a/b test
+model monitoring
+4. full mlops automation
+
+
