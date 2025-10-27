@@ -1,0 +1,1 @@
+PS1="> " creates prompt like > in the shell
