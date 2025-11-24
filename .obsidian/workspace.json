@@ -139,12 +139,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "git.md",
+                "file": "ML_NLP/Python.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "git"
+              "title": "Python"
             }
           }
         ],
@@ -298,8 +298,8 @@
   },
   "active": "fc91c5d558a086ab",
   "lastOpenFiles": [
-    "ML_NLP/Python.md",
     "git.md",
+    "ML_NLP/Python.md",
     "ML_NLP/Home_ML.md",
     "Ansible.md",
     "Untitled 1.md",
