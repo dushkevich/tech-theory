@@ -1,1 +1,1 @@
-git con
+git config --global user.email "s@r.me"
