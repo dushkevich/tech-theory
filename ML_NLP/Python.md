@@ -27,6 +27,8 @@ for i,j,k in zip('ABETG',[3,4,1,5,1],[6,5,1,9,1]): print(((i*j)+'\n')*k, end='')
 
 print(sum([1 for i in range(int(input()), int(input())+1) if i**3%10 in [4,9]]))
 
+from math import log; print(*[sum([1/j for j in range(1, i+1)]) -  log(i) for i in [int(input())]])
+
 print(sum(int(input()) for _ in range(int(input()))))
 
 if in one line, it goes from right to left
