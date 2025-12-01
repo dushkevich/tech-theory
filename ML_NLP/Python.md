@@ -31,4 +31,6 @@ num % 10 ** (n + 1 - i) // (10 ** (n - i))
 
 `print(sum(int(input()) for _ in range(int(input()))))`
 
+`print(5 * ((int(input())+5) // 10)**2)`
+
 if in one line, it goes from right to left
