@@ -24,3 +24,5 @@ num % 10 ** (n + 1 - i) // (10 ** (n - i))
 | `atan2(y, x)`                             | Полярный угол (в радианах) точки с координатами `(x, y)`                         |
 
 for i,j,k in zip('ABETG',[3,4,1,5,1],[6,5,1,9,1]): print(((i*j)+'\n')*k, end='')
+
+print(sum([1 for i in range(int(input()), int(input())+1) if i**3%10 in [4,9]]))
