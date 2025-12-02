@@ -33,4 +33,11 @@ num % 10 ** (n + 1 - i) // (10 ** (n - i))
 
 `print(5 * ((int(input())+5) // 10)**2)`
 
+```python
+res = 1 
+for _ in range(10): 
+    res *= int(input()) or 1 
+print(res)
+```
+
 if in one line, it goes from right to left
