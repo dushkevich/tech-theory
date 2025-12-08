@@ -42,4 +42,8 @@ print(res)
 
 if in one line, it goes from right to left
 
+<<<<<<< HEAD
 
+=======
+`[print(next(i for i in range(2, t + 1) if t % i == 0)) for t in [int(input())]]`
+>>>>>>> 6c0a5aa9a7a35feb49f5b9ff4526aab76a4056f9
