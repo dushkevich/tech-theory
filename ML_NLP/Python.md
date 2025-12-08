@@ -41,3 +41,5 @@ print(res)
 ```
 
 if in one line, it goes from right to left
+
+`[print(next(i for i in range(2, t + 1) if t % i == 0)) for t in [int(input())]]`

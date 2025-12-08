@@ -146,6 +146,18 @@
               "icon": "lucide-file",
               "title": "Python"
             }
+          },
+          {
+            "id": "f421dc8ca90bbb42",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.10.6"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.10.6"
+            }
           }
         ],
         "currentTab": 9
@@ -288,6 +300,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
