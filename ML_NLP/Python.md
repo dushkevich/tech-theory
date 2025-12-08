@@ -46,4 +46,9 @@ if in one line, it goes from right to left
 
 =======
 `[print(next(i for i in range(2, t + 1) if t % i == 0)) for t in [int(input())]]`
+<<<<<<< HEAD
 >>>>>>> 6c0a5aa9a7a35feb49f5b9ff4526aab76a4056f9
+=======
+
+`print(*[i for i in range(1,int(input())+1) if not(5<=i<=9 or 17<=i<=37 or 78<=i<=87)], sep='\n')`
+>>>>>>> 13bf9cf564e4709f4f57317218635b74564327fa
