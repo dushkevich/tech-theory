@@ -45,3 +45,5 @@ if in one line, it goes from right to left
 `[print(next(i for i in range(2, t + 1) if t % i == 0)) for t in [int(input())]]`
 
 `print(*[i for i in range(1,int(input())+1) if not(5<=i<=9 or 17<=i<=37 or 78<=i<=87)], sep='\n')`
+
+`(lambda x: [[print(f'{j} + {i} = {j+i}') for i in range(1,10)] and print() for j in range(1, x+1)])(int(input()))`
