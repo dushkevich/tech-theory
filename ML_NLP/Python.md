@@ -78,5 +78,13 @@ else:
 
 `print('Цифра' if set('1234567890') & set(input()) else 'Цифр нет')`
 
+<<<<<<< HEAD
 
 >>>>>>> 50072f8e13ec1efaa57e132e2e10d539a657d52a
+=======
+```python
+n = input()
+for i in ['+','*']:
+    print(f'Символ {i} встречается {n.count(i)} раз')
+```
+>>>>>>> ce2b667486286384f9733fb0c810d54774e8ade8
