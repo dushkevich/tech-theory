@@ -87,4 +87,10 @@ n = input()
 for i in ['+','*']:
     print(f'Символ {i} встречается {n.count(i)} раз')
 ```
+<<<<<<< HEAD
 >>>>>>> ce2b667486286384f9733fb0c810d54774e8ade8
+=======
+
+
+`(lambda s: print(len(list(s[i] for i in range(1,len(s)) if s[i] == s[i-1]))))(input())`
+>>>>>>> 4fc2e468576c665bb40f14759a33ebb4b912fc5b
