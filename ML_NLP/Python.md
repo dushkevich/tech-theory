@@ -107,4 +107,9 @@ print('Количество согласных букв равно', sum(1 for _
 =======
 
 `x[::-1] = "dlrow olleh"`
+<<<<<<< HEAD
 >>>>>>> 122e45d1abc03d25e3c3b85f638d4bef435203df
+=======
+
+`print(str(bin(int(input())))[2:])`
+>>>>>>> 48b64c10e0b79817d5cbc4aa2b52632950a085be
