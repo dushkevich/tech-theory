@@ -76,3 +76,5 @@ print('Количество согласных букв равно', sum(1 for _
 ```
 
 `x[::-1] = "dlrow olleh"`
+
+`print(str(bin(int(input())))[2:])`
