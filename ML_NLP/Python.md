@@ -93,4 +93,13 @@ for i in ['+','*']:
 
 
 `(lambda s: print(len(list(s[i] for i in range(1,len(s)) if s[i] == s[i-1]))))(input())`
+<<<<<<< HEAD
 >>>>>>> 4fc2e468576c665bb40f14759a33ebb4b912fc5b
+=======
+
+```python
+s = input().lower()
+print('Количество гласных букв равно', sum(1 for _ in s if _ in 'ауоыиэяюёе'))
+print('Количество согласных букв равно', sum(1 for _ in s if _ in 'бвгджзйклмнпрстфхцчшщ'))
+```
+>>>>>>> 9c92d94f203aab87339210fdc1db451344ad2902
