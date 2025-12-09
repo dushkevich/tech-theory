@@ -78,4 +78,38 @@ else:
 
 `print('Цифра' if set('1234567890') & set(input()) else 'Цифр нет')`
 
+<<<<<<< HEAD
 
+>>>>>>> 50072f8e13ec1efaa57e132e2e10d539a657d52a
+=======
+```python
+n = input()
+for i in ['+','*']:
+    print(f'Символ {i} встречается {n.count(i)} раз')
+```
+<<<<<<< HEAD
+>>>>>>> ce2b667486286384f9733fb0c810d54774e8ade8
+=======
+
+
+`(lambda s: print(len(list(s[i] for i in range(1,len(s)) if s[i] == s[i-1]))))(input())`
+<<<<<<< HEAD
+>>>>>>> 4fc2e468576c665bb40f14759a33ebb4b912fc5b
+=======
+
+```python
+s = input().lower()
+print('Количество гласных букв равно', sum(1 for _ in s if _ in 'ауоыиэяюёе'))
+print('Количество согласных букв равно', sum(1 for _ in s if _ in 'бвгджзйклмнпрстфхцчшщ'))
+```
+<<<<<<< HEAD
+>>>>>>> 9c92d94f203aab87339210fdc1db451344ad2902
+=======
+
+`x[::-1] = "dlrow olleh"`
+<<<<<<< HEAD
+>>>>>>> 122e45d1abc03d25e3c3b85f638d4bef435203df
+=======
+
+`print(str(bin(int(input())))[2:])`
+>>>>>>> 48b64c10e0b79817d5cbc4aa2b52632950a085be
