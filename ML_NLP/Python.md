@@ -47,3 +47,13 @@ if in one line, it goes from right to left
 `print(*[i for i in range(1,int(input())+1) if not(5<=i<=9 or 17<=i<=37 or 78<=i<=87)], sep='\n')`
 
 `(lambda x: [[print(f'{j} + {i} = {j+i}') for i in range(1,10)] and print() for j in range(1, x+1)])(int(input()))`
+
+```python
+s = input()
+any(substring in string for substring in substring_list)
+
+if any(i in s for i in ['1','2','3','4','5','6','7','8','9']):
+    print('Цифра')
+else:
+    print('Цифр нет')
+```
