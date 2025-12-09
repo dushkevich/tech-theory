@@ -58,3 +58,5 @@ if in one line, it goes from right to left
 
 `(lambda x: [[print(f'{j} + {i} = {j+i}') for i in range(1,10)] and print() for j in range(1, x+1)])(int(input()))`
 >>>>>>> 02e0057106b579d6d4a0c3a3cdedb5004aaf6879
+>>>>>
+
