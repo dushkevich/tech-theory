@@ -62,3 +62,21 @@ if in one line, it goes from right to left
 
 `print(sum(int(i) for i in input()))`
 
+<<<<<<< HEAD
+=======
+`(lambda x: [[print(f'{j} + {i} = {j+i}') for i in range(1,10)] and print() for j in range(1, x+1)])(int(input()))`
+
+```python
+s = input()
+any(substring in string for substring in substring_list)
+
+if any(i in s for i in ['1','2','3','4','5','6','7','8','9']):
+    print('Цифра')
+else:
+    print('Цифр нет')
+```
+
+`print('Цифра' if set('1234567890') & set(input()) else 'Цифр нет')`
+
+
+>>>>>>> 50072f8e13ec1efaa57e132e2e10d539a657d52a
