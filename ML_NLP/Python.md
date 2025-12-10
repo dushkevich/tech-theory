@@ -105,3 +105,5 @@ print(['NO','YES']['хорош' in input().lower()])
 `print(sum(s.islower() for s in input()))` 
 
 `print([chr(i) for i in range(97, 97 + int(input()))])`
+
+`print(list(input()[::2]))`
