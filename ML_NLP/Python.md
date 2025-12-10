@@ -102,3 +102,4 @@ print(['NO','YES'][s == s.title()])
 print(['NO','YES']['хорош' in input().lower()])
 ```
 
+`print(sum(s.islower() for s in input()))` 
