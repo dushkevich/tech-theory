@@ -98,5 +98,7 @@ print(s[::7])
 ```python
 s = input()
 print(['NO','YES'][s == s.title()])
+
+print(['NO','YES']['хорош' in input().lower()])
 ```
 
