@@ -345,7 +345,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "ef7f1cae6479a9b3",
@@ -439,9 +440,10 @@
   },
   "active": "3d22c2f595535f26",
   "lastOpenFiles": [
+    "Untitled.base",
+    "ML_NLP/Python.md",
     "Untitled.md",
     "git.md",
-    "ML_NLP/Python.md",
     "ML_NLP/Home_ML.md",
     "Ansible.md",
     "Untitled 1.md",
