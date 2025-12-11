@@ -113,3 +113,9 @@ print(['NO','YES']['хорош' in input().lower()])
 ```python
 n = int(input()) print([i for i in range(1, n + 1) if n % i == 0])
 ```
+
+```python
+a = [int(input()) for i in range(int(input()))] 
+print([a[i] + a[i + 1] for i in range(len(a) - 1)])
+```
+
