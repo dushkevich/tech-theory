@@ -107,3 +107,6 @@ print(['NO','YES']['хорош' in input().lower()])
 `print([chr(i) for i in range(97, 97 + int(input()))])`
 
 `print(list(input()[::2]))`
+
+`print([input() for _ in range(int(input()))])`
+
