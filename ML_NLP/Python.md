@@ -164,4 +164,5 @@ for t in text:
 
 `print('.'.join([name[0] for name in input().split()]), end='.')`
 
+`print("ДА" if all(int(i) <= 255 for i in input().split('.')) else "НЕТ")`
 
