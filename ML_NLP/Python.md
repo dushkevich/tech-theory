@@ -171,8 +171,9 @@ a = input().split()
 print(sum(a.count(x) - 1 for x in a) // 2)
 
 a=input().split() 
-p=0 for i in range(len(a)): 
-	p+=a[i::].count(a[i])-1 
+p=0 
+for i in range(len(a)): 
+	p+=a[i:].count(a[i])-1 
 print(p)
 ```
 
