@@ -147,7 +147,8 @@ my_list, word = [input() for _ in range(int(input()))], input()
 lst = [input() for _ in range(int(input()))] 
 searches = [input() for _ in range(int(input()))] 
 for text in lst: 
-	if all(search.lower() in text.lower() for search in searches): print(text)
+	if all(search.lower() in text.lower() for search in searches): 
+		print(text)
 
 text = [input() for _ in range(int(input()))] 
 search = [input() for _ in range(int(input()))] 
@@ -155,6 +156,8 @@ for t in text:
 	for s in search: 
 		if s.lower() not in t.lower(): 
 		break 
-	else: print(t)
+	else: 
+		print(t)
 ```
+
 
