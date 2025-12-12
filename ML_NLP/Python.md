@@ -124,3 +124,15 @@ numbers = [int(input()) for _ in range(int(input()))]
 print(*numbers, '',*[(x + 1) ** 2 for x in numbers], sep='\n')
 ```
 
+```python
+ls = [int(input()) for _ in range(int(input()))] 
+[print(i) for i in ls if i not in (max(ls), min(ls))]
+```
+
+```python
+n = [int(input()) for _ in range(int(input()))]
+del n[n.index(max(n))]
+del n[n.index(min(n))]
+print(*n, sep='\n')
+```
+
