@@ -160,4 +160,6 @@ for t in text:
 		print(t)
 ```
 
+`print(*input().split(), sep='\n')`
+
 
