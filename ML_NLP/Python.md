@@ -119,3 +119,8 @@ a = [int(input()) for i in range(int(input()))]
 print([a[i] + a[i + 1] for i in range(len(a) - 1)])
 ```
 
+```python
+numbers = [int(input()) for _ in range(int(input()))] 
+print(*numbers, '',*[(x + 1) ** 2 for x in numbers], sep='\n')
+```
+
