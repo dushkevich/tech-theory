@@ -138,3 +138,7 @@ print(*n, sep='\n')
 
 `print(*{input(): 0 for _ in range(int(input()))}, sep='\n')`
 
+```python
+my_list, word = [input() for _ in range(int(input()))], input() 
+[print(i) for i in my_list if word.lower() in i.lower()]
+```
