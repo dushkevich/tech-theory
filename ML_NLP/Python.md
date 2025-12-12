@@ -136,3 +136,5 @@ del n[n.index(min(n))]
 print(*n, sep='\n')
 ```
 
+`print(*{input(): 0 for _ in range(int(input()))}, sep='\n')`
+
