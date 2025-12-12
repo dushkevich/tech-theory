@@ -162,4 +162,6 @@ for t in text:
 
 `print(*input().split(), sep='\n')`
 
+`print('.'.join([name[0] for name in input().split()]), end='.')`
+
 
