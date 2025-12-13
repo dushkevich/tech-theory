@@ -187,3 +187,10 @@ numbers.insert(3, 25)
 print(numbers)
 ```
 
+```python
+a = list(map(int, input().split())) 
+x = a.index(max(a)) 
+y = a.index(min(a)) 
+a[x], a[y] = a[y], a[x] 
+print(*a)
+```
