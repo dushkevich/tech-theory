@@ -193,4 +193,9 @@ x = a.index(max(a))
 y = a.index(min(a)) 
 a[x], a[y] = a[y], a[x] 
 print(*a)
+
+d = [int(i) for i in input().split()] 
+x, y = d.index(min(d)), d.index(max(d)) 
+d[x], d[y] = d[y], d[x] 
+print(*d)
 ```
