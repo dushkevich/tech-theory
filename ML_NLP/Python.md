@@ -199,3 +199,6 @@ x, y = d.index(min(d)), d.index(max(d))
 d[x], d[y] = d[y], d[x] 
 print(*d)
 ```
+
+`print(*sorted([input() for _ in range(int(input()))]), sep='\n')`
+
