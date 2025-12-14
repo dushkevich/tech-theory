@@ -219,3 +219,6 @@ print(*d)
 animals = ['🐢', '🐈', '🦜', '🐟', '🐍'] 
 favorite_animals = [animal for animal in animals[1::2]]
 ```
+
+`palindromes = [(num * 10) + (num // 10) for num in range(10, 100) ]`
+
