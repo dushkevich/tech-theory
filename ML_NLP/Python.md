@@ -214,3 +214,8 @@ print(*d)
 |`[m[0] for m in words]`|`['o', 't', 't', 'f', 'f', 's']`|
 |`[i for i in numbers if i < 10]`|`[1, 5, 9]`|
 |`[m[0] for m in words if len(m) == 3]`|`['o', 't', 's']`|
+
+```python
+animals = ['🐢', '🐈', '🦜', '🐟', '🐍'] 
+favorite_animals = [animal for animal in animals[1::2]]
+```
