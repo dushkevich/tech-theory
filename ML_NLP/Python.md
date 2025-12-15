@@ -236,3 +236,7 @@ print([a.pop(a.index(min(a))) for i in range(len(a))])
 ```
 
 `print((surname[0]+name[0]+patronymic[0]).upper())`
+
+```python
+print('Букв в верхнем регистре:', sum(1 for letter in s if letter.isupper())) print('Букв в нижнем регистре:', sum(1 for letter in s if letter.islower()))
+```
