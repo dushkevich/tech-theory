@@ -234,3 +234,5 @@ for i in range(n):
 
 print([a.pop(a.index(min(a))) for i in range(len(a))])
 ```
+
+`print((surname[0]+name[0]+patronymic[0]).upper())`
