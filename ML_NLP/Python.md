@@ -254,3 +254,8 @@ return sorted(set(numbers), key=numbers.index)
 ```
 
 `return ([i for i in range(len(data)) if data[i] == value] or ["ERROR!"])[-1]`
+
+```python
+    string = ''.join(i.lower() for i in text if i.isalpha())
+    return string == string[::-1]
+```
