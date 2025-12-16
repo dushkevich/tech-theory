@@ -259,3 +259,6 @@ return sorted(set(numbers), key=numbers.index)
     string = ''.join(i.lower() for i in text if i.isalpha())
     return string == string[::-1]
 ```
+
+`return len([i for i in word1 if i not in word2]) == 1 and len(word1) == len(word2)`
+
