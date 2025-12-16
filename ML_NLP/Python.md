@@ -252,3 +252,5 @@ return [numbers[i] for i in range(len(numbers)) if numbers[i] not in numbers[:i]
 
 return sorted(set(numbers), key=numbers.index)
 ```
+
+`return ([i for i in range(len(data)) if data[i] == value] or ["ERROR!"])[-1]`
