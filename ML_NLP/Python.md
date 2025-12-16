@@ -262,3 +262,13 @@ return sorted(set(numbers), key=numbers.index)
 
 `return len([i for i in word1 if i not in word2]) == 1 and len(word1) == len(word2)`
 
+```python
+def convert_to_python_case(text): 
+    s = '' 
+    for el in text: 
+        if el.isupper(): 
+            s += '_' 
+        s += el.lower() return s[1:]
+        
+return ''.join(['_' + i if i.isupper() else i for i in text]).lstrip('_').lower()
+```
