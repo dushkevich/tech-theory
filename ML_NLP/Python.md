@@ -280,3 +280,21 @@ def is_password_good(password):
     dig = [i for i in password if i.isdigit()]
     return all([len(password) >= 8, upp, low, dig])
 ```
+
+```python
+def is_valid_password(password):
+    password = password.split(':')
+    a, b, c = password[0], int(password[1]), int(password[2])
+    if len(password) != 3 or a != a[::-1] or c % 2 != 0:
+        return False
+    for i in range(2, b):
+        if b % i == 0:
+            return False
+    return True
+
+def is_valid_password(password):
+    if password.count(':') > 2:
+        return False
+    a, b, c = password.split(":")
+    return a == a[::-1] and (all(False for i in range(2, int(int(b) ** 0.5) + 1) if int(b) % i == 0) and int(b) != 1) and int(c)%2 == 0
+```
