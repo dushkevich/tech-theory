@@ -272,3 +272,11 @@ def convert_to_python_case(text):
         
 return ''.join(['_' + i if i.isupper() else i for i in text]).lstrip('_').lower()
 ```
+
+```python
+def is_password_good(password):
+    upp = [i for i in password if i.isupper()]
+    low = [i for i in password if i.islower()]
+    dig = [i for i in password if i.isdigit()]
+    return all([len(password) >= 8, upp, low, dig])
+```
