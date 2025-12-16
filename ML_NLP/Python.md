@@ -247,3 +247,8 @@ a, b = msc_time.split(':')
 print(f'Созвон будет в {int(a) + 2:02d}:{b}.')
 ```
 
+```python
+return [numbers[i] for i in range(len(numbers)) if numbers[i] not in numbers[:i]]
+
+return sorted(set(numbers), key=numbers.index)
+```
