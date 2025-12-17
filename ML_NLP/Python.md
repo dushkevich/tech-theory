@@ -321,3 +321,9 @@ maximum = max(max(i) for i in list1)
 ```python
 list1 = [[1, 7, 8], [9, 7, 102], [102, 106, 105], [100, 99, 98, 103], [1, 2, 3]] [x.reverse() for x in list1]
 ```
+
+```python
+list1 = [[1, 7, 8], [9, 7, 102], [102, 106, 105], [100, 99, 98, 103], [1, 2, 3]]
+total = sum(sum(i) for i in list1)
+counter = sum(len(i) for i in list1)
+```
