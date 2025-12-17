@@ -298,3 +298,9 @@ def is_valid_password(password):
     a, b, c = password.split(":")
     return a == a[::-1] and (all(False for i in range(2, int(int(b) ** 0.5) + 1) if int(b) % i == 0) and int(b) != 1) and int(c)%2 == 0
 ```
+
+```python
+while "()" in text: 
+	text = text.replace("()", "") 
+return text == ""
+```
