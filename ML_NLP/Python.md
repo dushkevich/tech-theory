@@ -304,3 +304,10 @@ while "()" in text:
 	text = text.replace("()", "") 
 return text == ""
 ```
+
+```python
+def solve(a, b, c): 
+	d = b**2 - 4 * (a * c) 
+	return sorted([(-b + d ** 0.5) / (2 * a), (-b - d ** 0.5) / (2 * a)])
+```
+
