@@ -327,3 +327,8 @@ list1 = [[1, 7, 8], [9, 7, 102], [102, 106, 105], [100, 99, 98, 103], [1, 2, 3]]
 total = sum(sum(i) for i in list1)
 counter = sum(len(i) for i in list1)
 ```
+
+```python
+n, m = int(input()), int(input()) # считываем значения n и m 
+my_list = [[0] * m for _ in range(n)]
+```
