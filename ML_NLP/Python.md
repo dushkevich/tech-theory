@@ -339,3 +339,24 @@ print(*[[i for i in range(1, i+1)] for i in range(1, n+1)], sep = "\n")
 
 [print(list(range(1, x + 2))) for x in range(int(input()))]
 ```
+
+```python
+n = int(input()) 
+li = [1] 
+for i in range(n): 
+    for j in range(len(li) - 1): 
+        li[j] = li[j] + li[j + 1] 
+        li.insert(0, 1) 
+print(li)
+
+def pascal(num):
+    num += 1
+    some = [[1 for i in range(1, i+1)] for i in range(1, num+1)]
+    for row in range(2, len(some)):
+        for col in range(len(some[row])-1):
+            if col != 0 and col != len(some[row]):
+                some[row][col] = some[row-1][col-1] + some[row-1][col]
+    return some[num-1]
+print(pascal(int(input())))
+```
+
