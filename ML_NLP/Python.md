@@ -332,3 +332,10 @@ counter = sum(len(i) for i in list1)
 n, m = int(input()), int(input()) # считываем значения n и m 
 my_list = [[0] * m for _ in range(n)]
 ```
+
+```python
+n = int(input())
+print(*[[i for i in range(1, i+1)] for i in range(1, n+1)], sep = "\n")
+
+[print(list(range(1, x + 2))) for x in range(int(input()))]
+```
