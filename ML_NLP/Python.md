@@ -358,5 +358,12 @@ def pascal(num):
                 some[row][col] = some[row-1][col-1] + some[row-1][col]
     return some[num-1]
 print(pascal(int(input())))
+
+pasc = [1] 
+for x in range(int(input())): 
+	print(*pasc) 
+	pasc[1:] = list(map(lambda a, b: a + b, pasc, pasc[1:] + [0]))
 ```
+
+
 
