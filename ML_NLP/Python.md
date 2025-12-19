@@ -370,5 +370,8 @@ tuples = [(10, 20, 40), (40, 50, 60), (70, 80, 90), (10, 90), (1, 2, 3, 4), (5, 
 new_tuples = [i[:-1] + (100, ) for i in tuples ]
 print(new_tuples)
 
+poet_data = ('Пушкин', 1799, 'Санкт-Петербург') 
+poet_data = poet_data[:-1] + ('Москва',) 
+print(poet_data)
 ```
 
