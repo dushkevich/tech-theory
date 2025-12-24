@@ -389,3 +389,5 @@ for i in range(n):
     f1, f2, f3 = f2, f3, f1 + f2 + f3
 ```
 
+`print(('NO', 'YES')[len(set(input() + input())) == 10])`
+
