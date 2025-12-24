@@ -395,3 +395,9 @@ for i in range(n):
 a, b, c = [set(el) for el in input().split()] 
 print("YNEOS"[not(a == b == c)::2])
 ```
+
+```python
+words = [word.lower().strip('.,;:-?!') 
+for word in input().split()] print(len(set(words)))
+```
+
