@@ -391,3 +391,7 @@ for i in range(n):
 
 `print(('NO', 'YES')[len(set(input() + input())) == 10])`
 
+```python
+a, b, c = [set(el) for el in input().split()] 
+print("YNEOS"[not(a == b == c)::2])
+```
