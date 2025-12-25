@@ -409,3 +409,5 @@ y = [i for i in x if i.split(': ')[1] == 'Correct']
 print(f'Верно решили {len(set(y))} учащихся\nИз всех попыток {round((len(y)/len(x))*100 + 0.001)}% верных' if set(y) else 'Вы можете стать первым, кто решит эту задачу')
 ```
 
+`result = [user['name'] for user in users if user['phone'].endswith('8')]`
+
