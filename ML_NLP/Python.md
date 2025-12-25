@@ -438,3 +438,12 @@ for ch in string:
             print(i*(dic[i].index(ch)+1), end='')
 ```
 
+```python
+letters = [c for c in 'ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789']
+morse = ['.-', '-...', '-.-.', '-..', '.', '..-.', '--.', '....', '..', '.---', '-.-', '.-..', '--', '-.', '---', '.--.', '--.-', '.-.', '...', '-', '..-', '...-', '.--', '-..-', '-.--', '--..', '-----', '.----', '..---', '...--', '....-', '.....', '-....', '--...', '---..', '----.']
+
+
+mo = dict(zip(letters, morse))
+
+print(*[mo[i] for i in input().upper() if i in letters])
+```
