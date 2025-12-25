@@ -417,3 +417,24 @@ print(f'Верно решили {len(set(y))} учащихся\nИз всех п
 digits = { 0: "zero", 1: "one", 2: "two", 3: "three", 4: "four", 5: "five", 6: "six", 7: "seven", 8: "eight", 9: "nine" } 
 print(*[digits[int(c)] for c in input()])
 ```
+
+```python
+dic = {
+    "1": ".,?!:",
+    "2": "ABC",
+    "3": "DEF",
+    "4": "GHI",
+    "5": "JKL",
+    "6": "MNO",
+    "7": "PQRS",
+    "8": "TUV",
+    "9": "WXYZ",
+    "0": " "
+}
+string = input().upper()
+for ch in string:
+    for i in dic:
+        if ch in dic[i]:
+            print(i*(dic[i].index(ch)+1), end='')
+```
+
