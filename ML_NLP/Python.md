@@ -411,3 +411,4 @@ print(f'Верно решили {len(set(y))} учащихся\nИз всех п
 
 `result = [user['name'] for user in users if user['phone'].endswith('8')]`
 
+`result = [user['name'] for user in users if 'email' not in user or user['email'] == '']`
