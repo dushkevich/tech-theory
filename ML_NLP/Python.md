@@ -412,3 +412,8 @@ print(f'Верно решили {len(set(y))} учащихся\nИз всех п
 `result = [user['name'] for user in users if user['phone'].endswith('8')]`
 
 `result = [user['name'] for user in users if 'email' not in user or user['email'] == '']`
+
+```python
+digits = { 0: "zero", 1: "one", 2: "two", 3: "three", 4: "four", 5: "five", 6: "six", 7: "seven", 8: "eight", 9: "nine" } 
+print(*[digits[int(c)] for c in input()])
+```
