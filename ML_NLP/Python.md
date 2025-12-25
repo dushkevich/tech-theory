@@ -403,3 +403,9 @@ for word in input().split()] print(len(set(words)))
 
 `numbers = [int(i) for i in input().split()]`
 
+```python
+x = [input() for _ in range(int(input()))] 
+y = [i for i in x if i.split(': ')[1] == 'Correct'] 
+print(f'Верно решили {len(set(y))} учащихся\nИз всех попыток {round((len(y)/len(x))*100 + 0.001)}% верных' if set(y) else 'Вы можете стать первым, кто решит эту задачу')
+```
+
