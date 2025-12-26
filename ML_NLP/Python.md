@@ -447,3 +447,6 @@ mo = dict(zip(letters, morse))
 
 print(*[mo[i] for i in input().upper() if i in letters])
 ```
+
+`result = {i: i ** 2 for i in range(1, 16)}`
+
