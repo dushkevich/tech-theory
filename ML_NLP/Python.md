@@ -506,5 +506,19 @@ for _ in range(int(input())):
     print(d[input()])
 ```
 
+```python
+dct = {}
+for _ in range(int(input())):
+    phone, name = input().lower().split()
+    dct.setdefault(name, []).append(phone)
+for _ in range(int(input())):
+    print(*dct.get(input().lower(), ['абонент не найден']))
 
+d = {}
+for _ in range(int(input())):
+    nu, na = input().split()
+    d[na.lower()] = d.get(na.lower(), '') + f'{nu} '
+for _ in range(int(input())):    
+    print(d.get(input().lower(), "абонент не найден"))
+```
 
