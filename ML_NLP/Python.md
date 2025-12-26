@@ -522,3 +522,25 @@ for _ in range(int(input())):
     print(d.get(input().lower(), "абонент не найден"))
 ```
 
+```python
+code, dec, j, fin = input(), {}, {}, {}
+f = sorted(set(code))
+for i in range(int(input())):
+    a, b = input().split(': ')
+    dec[int(b)] = a
+    j[code.count(f[i])] = f[i]
+for i in j:
+    fin[j[i]] = dec[i]
+for i in code:
+    print(fin[i], end='')
+
+dct, word = {}, {}
+s = input()
+for c in s:
+    word[c] = word.get(c, 0) + 1
+for _ in range(int(input())):
+    a, b = input().split(': ')
+    dct[int(b)] = a
+for c in s:
+    print(dct[word[c]], end='')
+```
