@@ -496,3 +496,15 @@ for _ in range(int(input())):
     words[a], words[b] = b, a
 print(words[input()])
 ```
+
+```python
+d = {}
+for _ in range(int(input())):
+    country, *cities = input().split()
+    d.update(dict.fromkeys(cities, country))
+for _ in range(int(input())):    
+    print(d[input()])
+```
+
+
+
