@@ -489,3 +489,10 @@ s2 = [i for i in input().lower() if i.isalpha()]
 print('YES' if sorted(s1) == sorted(s2) else 'NO')
 ```
 
+```python
+words = {}
+for _ in range(int(input())):
+    a, b = input().split()
+    words[a], words[b] = b, a
+print(words[input()])
+```
