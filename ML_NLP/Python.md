@@ -474,3 +474,11 @@ result = {}
 for pet in pets: result.setdefault(pet[1:], []).append(pet[0])
 ```
 
+```python
+mydict = {} 
+for _ in range(int(input())): 
+	key, value = input().split(': ') 
+	mydict[key.lower()] = value 
+for _ in range(int(input())): 
+	print(mydict.get(input().lower(), 'Не найдено'))
+```
