@@ -461,3 +461,9 @@ for i in dict2:
 dict1.update(dict2)
 result = dict1.copy()
 ```
+
+```python
+text = 'footballcyberpunkextraterritorialityconversationalistblockophthalmoscopicinterdependencemamauserfff'
+set_di = set(text)
+result = {i: text.count(i) for i in set_di}
+```
