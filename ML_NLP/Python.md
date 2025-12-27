@@ -585,3 +585,14 @@ for _ in range(n):
         k += 1
 print((k/n)*4)
 ```
+
+```python
+def matrix(a=1, b=None, c=0):
+    if b == None: b = a
+    return [[c]*b]*a
+
+def matrix(n=1, m=None, value=0):
+    if m is None:
+        m = n
+    return [[value] * m for _ in range(n)]
+```
