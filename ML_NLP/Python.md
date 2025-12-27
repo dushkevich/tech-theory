@@ -550,3 +550,11 @@ from random import randint as R
 for _ in range(int(input())):
     print([chr(R(65, 90)), chr(R(97, 122))][R(0, 1)], end = '')
 ```
+
+```python
+import random
+se = set()
+while len(se) != 7:
+    se.add(random.randint(1, 49))
+print(*sorted(se))
+```
