@@ -544,3 +544,9 @@ for _ in range(int(input())):
 for c in s:
     print(dct[word[c]], end='')
 ```
+
+```python
+from random import randint as R
+for _ in range(int(input())):
+    print([chr(R(65, 90)), chr(R(97, 122))][R(0, 1)], end = '')
+```
