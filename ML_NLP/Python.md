@@ -607,3 +607,8 @@ def mean(*args):
     s = [float(i) for i in args if type(i) in (int, float)]
     return sum(s)/len(s) if len(s) > 0 else 0.0
 ```
+
+```python
+def greet(name, *args):
+    return f'Hello, {" and ".join((name,) + args)}!'
+```
