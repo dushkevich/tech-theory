@@ -601,3 +601,9 @@ def matrix(n=1, m=None, value=0):
 def sq_sum(*args):
     return sum(x ** 2 for x in args)
 ```
+
+```python
+def mean(*args):
+    s = [float(i) for i in args if type(i) in (int, float)]
+    return sum(s)/len(s) if len(s) > 0 else 0.0
+```
