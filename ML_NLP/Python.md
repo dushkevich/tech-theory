@@ -596,3 +596,8 @@ def matrix(n=1, m=None, value=0):
         m = n
     return [[value] * m for _ in range(n)]
 ```
+
+```python
+def sq_sum(*args):
+    return sum(x ** 2 for x in args)
+```
