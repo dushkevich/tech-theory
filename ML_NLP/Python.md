@@ -623,3 +623,12 @@ def print_products(*args):
     if cnt == 0:
         print('Нет продуктов')
 ```
+
+```python
+def info_kwargs(**kwargs):
+    for k, v in sorted(kwargs.items()):
+        print(f'{k}: {v}')
+
+def info_kwargs(**kwars):
+    print(*[f"{i}: {kwars[i]}" for i in sorted(kwars)], sep='\n')
+```
