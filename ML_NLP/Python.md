@@ -671,3 +671,12 @@ n = int(input())
 command = input()
 print(commands[command](n))
 ```
+
+```python
+print(*sorted(input().split(), key=lambda x: sum(map(int, x))))
+
+so = input().split()
+def sor(a):
+    return sum(int(i) for i in a)
+print(*sorted(so, key=sor))
+```
