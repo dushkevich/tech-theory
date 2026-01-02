@@ -732,3 +732,23 @@ print(sum(map(lambda x: x**2, filter(lambda i: 9 < abs(i) < 100 and i%7==0, numb
 def func_apply(func, arr):
     return [func(x) for x in arr]
 ```
+
+----
+Неполный список функций из модуля operator выглядит так:
+
+Операция	Синтаксис	Функция
+Addition	a + b	add(a, b)
+Containment Test	obj in seq	contains(seq, obj)
+Division	a / b	truediv(a, b)
+Division	a // b	floordiv(a, b)
+Exponentiation	a ** b	pow(a, b)
+Modulo	a % b	mod(a, b)
+Multiplication	a * b	mul(a, b)
+Negation (Arithmetic)	-a	neg(a)
+Subtraction	a - b	sub(a, b)
+Ordering	a < b	lt(a, b)
+Ordering	a <= b	le(a, b)
+Equality	a == b	eq(a, b)
+Difference	a != b	ne(a, b)
+Ordering	a >= b	ge(a, b)
+Ordering	a > b	gt(a, b)
