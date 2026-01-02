@@ -735,7 +735,7 @@ def func_apply(func, arr):
 
 ----
 Неполный список функций из модуля operator выглядит так:
-
+```
 Операция	Синтаксис	Функция
 Addition	a + b	add(a, b)
 Containment Test	obj in seq	contains(seq, obj)
@@ -752,3 +752,5 @@ Equality	a == b	eq(a, b)
 Difference	a != b	ne(a, b)
 Ordering	a >= b	ge(a, b)
 Ordering	a > b	gt(a, b)
+```
+
