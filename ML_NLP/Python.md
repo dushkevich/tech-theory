@@ -795,3 +795,5 @@ file.close()
 
 print(*open(input()))
 ```
+
+`print(open(input()).readlines()[-2])`
