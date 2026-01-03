@@ -797,3 +797,30 @@ print(*open(input()))
 ```
 
 `print(open(input()).readlines()[-2])`
+
+```python
+import random
+file = open('lines.txt')
+print(random.choice(file.readlines()).rstrip())
+file.close()
+```
+
+```python
+file = open('numbers.txt')
+print(sum(map(int, file)))
+file.close()
+
+file = open('nums.txt')
+print(sum(map(int, file.read().split())))
+file.close()
+```
+
+```python
+file = open('prices.txt')
+lines = map(str.split, file)
+print(sum(map(lambda line: int(line[1]) * int(line[2]), lines)))
+file.close()
+
+si = file.readlines()
+print(sum(map(lambda a: int(a.split('\t')[1]) * int(a.split('\t')[2]), si)))
+```
