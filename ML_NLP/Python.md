@@ -785,3 +785,13 @@ print(cities)
 dt = sorted(map(lambda x: x[0], filter(lambda x: x[1] >= 10000000 and x[2] == 'primary', data)))
 print("Cities:", ', '.join(dt))
 ```
+
+-----
+
+```python
+file = open(input())
+print(file.read())
+file.close()
+
+print(*open(input()))
+```
