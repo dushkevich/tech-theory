@@ -824,3 +824,8 @@ file.close()
 si = file.readlines()
 print(sum(map(lambda a: int(a.split('\t')[1]) * int(a.split('\t')[2]), si)))
 ```
+
+```python
+with open('data.txt') as f:
+    print(*[i.rstrip() for i in f.readlines()[::-1]], sep='\n')
+```
