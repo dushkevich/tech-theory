@@ -829,3 +829,20 @@ print(sum(map(lambda a: int(a.split('\t')[1]) * int(a.split('\t')[2]), si)))
 with open('data.txt') as f:
     print(*[i.rstrip() for i in f.readlines()[::-1]], sep='\n')
 ```
+
+```python
+with open('lines.txt') as f: 
+max_len, longest = 0, [] 
+for line in f: 
+	line = line.rstrip('\n') 
+	line_len = len(line) 
+	if line_len == max_len: 
+		longest.append(line) 
+	elif line_len > max_len: 
+		max_len, longest = line_len, [line] 
+print('\n'.join(longest))
+
+with open('lines.txt') as f:
+    smt = f.readlines()
+    print(*[i.rstrip() for i in smt if len(i) == len(max(smt, key=len))], sep='\n')
+```
