@@ -866,5 +866,26 @@ with open('nums.txt') as f:
         elif i.isdigit() or i.isspace():
             nu += i
     print(sum(int(i) for i in nu.split()))
-		
+```
+
+```python
+with open('lines.txt') as f: 
+	txt = f.read() 
+	print('Input file contains:') 
+	print(sum(map(str.isalpha, txt)), 'letters') 
+	print(len(txt.split()), 'words') 
+	print(txt.count('\n') + 1, 'lines')
+	
+with open('file.txt') as f:
+    l = 0
+    w = 0
+    li = 0
+    for line in f.readlines():
+        w += len(line.split())
+        l += sum(1 for i in line.rstrip() if i.isalpha())
+        li += 1
+    print('Input file contains:')
+    print(f"{l} letters")
+    print(f"{w} words")
+    print(f"{li} lines")
 ```
