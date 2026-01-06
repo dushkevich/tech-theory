@@ -846,3 +846,10 @@ with open('lines.txt') as f:
     smt = f.readlines()
     print(*[i.rstrip() for i in smt if len(i) == len(max(smt, key=len))], sep='\n')
 ```
+
+```python
+with open('numbers.txt') as f: 
+	for line in f: 
+		print(sum(map(int, line.split())))
+```
+
