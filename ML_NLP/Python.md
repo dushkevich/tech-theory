@@ -855,7 +855,16 @@ with open('numbers.txt') as f:
 
 ```python
 with open('numbers.txt', encoding='utf-8') as file: 
-		row = ''.join(c if c.isdigit() else ' ' for c in file.read())      print(sum(map(int, row.split())))
-		
+	row = ''.join(c if c.isdigit() else ' ' for c in file.read())
+	print(sum(map(int, row.split())))
+
+with open('nums.txt') as f:
+    nu = ''
+    for i in f.read():
+        if i.isalpha():
+            nu += ' '
+        elif i.isdigit() or i.isspace():
+            nu += i
+    print(sum(int(i) for i in nu.split()))
 		
 ```
