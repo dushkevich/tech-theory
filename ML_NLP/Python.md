@@ -853,3 +853,9 @@ with open('numbers.txt') as f:
 		print(sum(map(int, line.split())))
 ```
 
+```python
+with open('numbers.txt', encoding='utf-8') as file: 
+		row = ''.join(c if c.isdigit() else ' ' for c in file.read())      print(sum(map(int, row.split())))
+		
+		
+```
