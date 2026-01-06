@@ -906,3 +906,18 @@ with open('population.txt') as f:
             print(a)
 ```
 
+```python
+def read_csv(): 
+	with open('data.csv') as file: 
+		keys = file.readline().strip().split(',') 
+		return [dict(zip(keys, line.strip().split(','))) for line in file]
+		
+def read_csv():
+    result = []
+    with open('data.csv') as f:
+        rep = f.readline().rstrip().split(',')
+        uni = f.readlines()
+        for i in uni:
+            result.append(dict(zip(rep, i.rstrip().split(','))))
+    return result 
+```
