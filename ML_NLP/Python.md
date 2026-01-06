@@ -898,3 +898,11 @@ with open('first_names.txt', 'r', encoding='utf-8') as f, open('last_names.txt',
 		print(random.choice(z).strip(), random.choice(x).strip(), sep=' ')
 ```
 
+```python
+with open('population.txt') as f:
+    for li in f:
+        a, b = li.strip().split('\t')
+        if a.startswith('G') and int(b) > 500000:
+            print(a)
+```
+
