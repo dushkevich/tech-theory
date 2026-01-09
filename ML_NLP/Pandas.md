@@ -31,5 +31,10 @@ def dropMissingData(students: pd.DataFrame) -> pd.DataFrame:
     return students.dropna(subset=['name'])
 
 
+def modifySalaryColumn(employees: pd.DataFrame) -> pd.DataFrame:
+    employees['salary'] = employees['salary'] * 2
+    return employees
+    
+
 
 ```
