@@ -23,5 +23,9 @@ def createBonusColumn(employees: pd.DataFrame) -> pd.DataFrame:
     return employees
 
 
+def dropDuplicateEmails(customers: pd.DataFrame) -> pd.DataFrame:
+    return customers.drop_duplicates('email')
+    
+
 
 ```
