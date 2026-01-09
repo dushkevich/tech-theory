@@ -1,6 +1,7 @@
 ```python
 import pandas as pd
 
+
 def createDataframe(student_data: List[List[int]]) -> pd.DataFrame: 
 	return pd.DataFrame(student_data, columns=["student_id","age"])
 
@@ -15,6 +16,12 @@ def selectFirstRows(employees: pd.DataFrame) -> pd.DataFrame:
 
 def selectData(students: pd.DataFrame) -> pd.DataFrame:
     return students.loc[students['student_id'] == 101, ['name', 'age']]
-    
+
+
+def createBonusColumn(employees: pd.DataFrame) -> pd.DataFrame:
+    employees['bonus'] = employees['salary'] * 2
+    return employees
+
+
 
 ```
