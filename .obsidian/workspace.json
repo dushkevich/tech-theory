@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ML_NLP/Python.md",
+                "file": "ML_NLP/Pandas.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Python"
+              "title": "Pandas"
             }
           }
         ]
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "ef7f1cae6479a9b3",
@@ -173,18 +172,18 @@
   },
   "active": "3d22c2f595535f26",
   "lastOpenFiles": [
-    "start_page.md",
+    "Untitled.base",
+    "Untitled 1.md",
     "ML_NLP/Python.md",
+    "start_page.md",
     "ML_NLP/Home_ML.md",
     "Ansible.md",
     "HELM.md",
     "README.md",
     "GO.md",
     "Istio.md",
-    "Untitled.base",
-    "Untitled.md",
+    "ML_NLP/Pandas.md",
     "git.md",
-    "Untitled 1.md",
     "ML_NLP",
     "lifehacks.md",
     "images/Pasted image 20250917170503.png",
