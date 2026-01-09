@@ -3,13 +3,15 @@ import pandas as pd
 
 def createDataframe(student_data: List[List[int]]) -> pd.DataFrame: 
 	return pd.DataFrame(student_data, columns=["student_id","age"])
-	
-createDataframe([[1,15],[2,11],[3,11],[4,20]])
 
 
 def getDataframeSize(players: pd.DataFrame) -> List[int]:
     return list(players.shape)
     
     
+def selectFirstRows(employees: pd.DataFrame) -> pd.DataFrame:
+    return employees.head(3)
+    
+
 
 ```
