@@ -27,5 +27,9 @@ def dropDuplicateEmails(customers: pd.DataFrame) -> pd.DataFrame:
     return customers.drop_duplicates('email')
     
 
+def dropMissingData(students: pd.DataFrame) -> pd.DataFrame:
+    return students.dropna(subset=['name'])
+
+
 
 ```
