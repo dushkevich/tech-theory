@@ -93,7 +93,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "ef7f1cae6479a9b3",
@@ -185,7 +186,7 @@
       "github-sync:Sync with Remote": false
     }
   },
-  "active": "b43185a616da2ea4",
+  "active": "db93aa1b897730b4",
   "lastOpenFiles": [
     "ML_NLP/Pandas.md",
     "ML_NLP/OOP.md",

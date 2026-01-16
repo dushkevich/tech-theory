@@ -72,3 +72,31 @@ class Rectangle:
         return round(self.width * self.height, 2)
 ```
 
+
+```python
+class Point:
+    def __init__(self, x, y):
+        self.x = x
+        self.y = y
+
+    def move(self, a, b):
+        self.x += a
+        self.y += b
+
+    def length(self, point):
+        return round(((self.x - point.x) ** 2 + (self.y - point.y) ** 2) ** 0.5, 2)
+
+
+class PatchedPoint(Point):
+    def __init__(self, *args):
+        if len(args) == 0:
+            super().__init__(x=0, y=0)
+        elif len(args) == 1:
+            super().__init__(x=args[0][0], y=args[0][1])
+        else:
+            super().__init__(x=args[0], y=args[1])
+
+####
+
+
+```
