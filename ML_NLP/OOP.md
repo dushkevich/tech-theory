@@ -95,6 +95,12 @@ class PatchedPoint(Point):
             super().__init__(x=args[0][0], y=args[0][1])
         else:
             super().__init__(x=args[0], y=args[1])
+            
+    def __str__(self):
+        return f"({self.x}, {self.y})"
+
+    def __repr__(self):
+        return f"PatchedPoint({self.x}, {self.y})"
 
 ####
 
