@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ML_NLP/Pandas.md",
+                "file": "ML_NLP/OOP.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Pandas"
+              "title": "OOP"
             }
           },
           {
@@ -35,8 +35,7 @@
               "title": "OOP"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -93,8 +92,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "ef7f1cae6479a9b3",
@@ -186,15 +184,15 @@
       "github-sync:Sync with Remote": false
     }
   },
-  "active": "db93aa1b897730b4",
+  "active": "b43185a616da2ea4",
   "lastOpenFiles": [
+    "ML_NLP/Home_ML.md",
     "ML_NLP/Pandas.md",
     "ML_NLP/OOP.md",
     "Untitled.base",
     "Untitled 1.md",
     "ML_NLP/Python.md",
     "start_page.md",
-    "ML_NLP/Home_ML.md",
     "Ansible.md",
     "HELM.md",
     "README.md",

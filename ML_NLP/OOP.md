@@ -101,6 +101,14 @@ class PatchedPoint(Point):
 
     def __repr__(self):
         return f"PatchedPoint({self.x}, {self.y})"
+        
+    def __add__(self, other):
+        return PatchedPoint(self.x + other[0], self.y + other[1])
+
+    def __iadd__(self, other):
+        self.x += other[0]
+        self.y += other[1]
+        return self
 
 ####
 
