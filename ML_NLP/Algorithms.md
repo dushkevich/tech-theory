@@ -20,5 +20,30 @@ class Solution:
             if nums[i] == nums[i - 1]:
                 return True
         return False
+```
+
+```python
+class Solution:
+    def isAnagram(self, s: str, t: str) -> bool:
+        ## return sorted(s) == sorted(t)
+        fir, sec = {}, {}
+        for i in s:
+            if i not in fir:
+                fir[i] = 0
+            fir[i] += 1
+        for i in t:
+            if i not in fir.keys():
+                return False
+            if i not in sec:
+                sec[i] = 0
+            sec[i] += 1
+        for i in s:
+            if i not in sec.keys():
+                return False
+            if fir[i] != sec[i]:
+                return False
+        return True
+
+
 
 ```
