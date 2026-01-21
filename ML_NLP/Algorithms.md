@@ -65,3 +65,17 @@ class Solution:
         return sorted(s) == sorted(t)
 
 ```
+
+```python
+class Solution:
+    def twoSum(self, nums: List[int], target: int) -> List[int]:
+        sol_map = {}
+        for i in nums:
+            diff = target - i
+            if diff not in sol_map:
+                sol_map[i] = nums.index(i)
+
+            else:
+
+                return [sol_map[diff], nums.index(i, sol_map[diff]+1)]
+```
