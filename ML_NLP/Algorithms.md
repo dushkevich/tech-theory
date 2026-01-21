@@ -78,4 +78,31 @@ class Solution:
                 return [sol_map[diff], nums.index(i, sol_map[diff]+1)]
 
 
+
+
+class Solution:
+    def twoSum(self, nums: List[int], target: int) -> List[int]:
+        indices = {}  # val -> index
+
+        for i, n in enumerate(nums):
+            indices[n] = i
+
+        for i, n in enumerate(nums):
+            diff = target - n
+            if diff in indices and indices[diff] != i:
+                return [i, indices[diff]]
+        return []
+
+
+
+class Solution:
+    def twoSum(self, nums: List[int], target: int) -> List[int]:
+        prevMap = {}  # val -> index
+
+        for i, n in enumerate(nums):
+            diff = target - n
+            if diff in prevMap:
+                return [prevMap[diff], i]
+            prevMap[n] = i
+
 ```
