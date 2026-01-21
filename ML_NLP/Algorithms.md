@@ -107,5 +107,22 @@ class Solution:
 
 ```
 
-```p
+```python
+class Solution:
+    def groupAnagrams(self, strs: List[str]) -> List[List[str]]:
+        a, z, f = [], {}, []
+        for i in strs:
+            a.append(''.join(sorted(i)))
+            z[''.join(sorted(i))] = []
+        a.sort()
+        for i in z.keys():
+            for s in strs:
+                if i == ''.join(sorted(s)):
+                    z[i].append(s)
+        for i in z.keys():
+            f.append(z[i])
+        return f
+
+
+
 ```
