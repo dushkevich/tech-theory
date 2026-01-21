@@ -124,5 +124,17 @@ class Solution:
         return f
 
 
-
+class Solution:
+    def groupAnagrams(self, strs: List[str]) -> List[List[str]]:
+        res = defaultdict(list)
+        for s in strs:
+            count = [0] * 26
+            for c in s:
+                count[ord(c) - ord('a')] += 1
+            #     print(f"{ord(c)} - {ord('a')} = {ord(c) - ord('a')}")
+            # print(count)
+            res[tuple(count)].append(s)
+        #     print()
+        # print(res)
+        return list(res.values())
 ```
