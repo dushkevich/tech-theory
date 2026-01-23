@@ -247,3 +247,22 @@ class Solution:
         return True
 ```
 
+```python
+class Solution:
+    def longestConsecutive(self, nums: List[int]) -> int:
+        sn = sorted(set(nums))
+        lgst = [1]
+        cnt = 0
+
+        for i in range(len(sn)-1):
+            if sn[i] + 1 == sn[i+1]:
+                lgst[cnt] += 1
+            else:
+                cnt += 1
+                lgst.append(1)
+
+        return max(lgst) if nums else 0
+
+
+
+```
