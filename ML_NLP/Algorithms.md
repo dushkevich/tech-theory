@@ -300,5 +300,15 @@ class Solution:
 # Two Pointers
 
 ```python
+class Solution:
+    def isPalindrome(self, s: str) -> bool:
+        st = [i.lower() for i in s if i.isalnum()]
 
+        l, r = 0, len(st) - 1
+        while l < r:
+            if st[l] != st[r]:
+                return False
+            l += 1
+            r -= 1
+        return True
 ```
