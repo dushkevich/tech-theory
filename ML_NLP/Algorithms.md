@@ -1,3 +1,6 @@
+# Arrays & Hashing
+
+
 ```python
 class Solution:
     def hasDuplicate(self, nums: List[int]) -> bool:
@@ -290,5 +293,12 @@ class Solution:
                 mp[num + mp[num + 1]] = mp[num]
                 res = max(res, mp[num])
         return res
+
+```
+
+
+# Two Pointers
+
+```python
 
 ```
