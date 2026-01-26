@@ -326,3 +326,29 @@ class Solution:
             else:
                 return [l + 1, r + 1]
 ```
+
+```python
+class Solution:
+    def threeSum(self, nums: List[int]) -> List[List[int]]:
+        nums.sort()
+        ln = len(nums) - 1
+        out = []  
+
+        for i in range(0, ln):
+            l = i + 1
+            r = ln
+            while l < r:
+                n = nums[l] + nums[r]
+                if n > -nums[i]:
+                    r -= 1
+                elif n < -nums[i]:
+                    l += 1
+                else:
+                    if [nums[i], nums[l], nums[r]] not in out:
+                        out.append([nums[i], nums[l], nums[r]])
+                    l += 1
+        return out
+
+
+
+```
