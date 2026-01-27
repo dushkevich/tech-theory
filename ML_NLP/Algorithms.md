@@ -413,3 +413,24 @@ class Solution:
 
 ```
 
+```python
+class Solution:
+    def trap(self, height: List[int]) -> int:
+        pre, post = [], []
+        f, s = 0, 0
+        water = 0
+        for i in height:
+            if i > f:
+                f = i
+            pre.append(f)
+        for i in height[::-1]:
+            if i > s:
+                s = i
+            post.insert(0, s)
+        for i in range(0, len(height) - 1):
+            water += min(pre[i], post[i]) - height[i]
+        return water
+
+
+
+```
