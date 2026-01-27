@@ -383,6 +383,8 @@ class Solution:
 ```python
 class Solution:
     def maxArea(self, heights: List[int]) -> int:
+class Solution:
+    def maxArea(self, heights: List[int]) -> int:
         l, r, ma = 0, len(heights) - 1, 0
         while l < r:
             su = (r - l) * min(heights[r], heights[l])
