@@ -479,3 +479,20 @@ class Solution:
 ```
 
 
+# Stack
+
+```python
+class Solution:
+    def isValid(self, s: str) -> bool:
+        st = []
+        clt = {")": "(", "}": "{", "]": "["}
+        for i in s:
+            if i in clt:
+                if st and clt[i] == st[-1]:
+                    st.pop(-1)
+                else:
+                    return False
+            else:
+                st.append(i)
+        return True if not st else False
+```
