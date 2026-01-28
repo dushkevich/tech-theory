@@ -500,42 +500,65 @@ class Solution:
 ```python
 class MinStack:
     def __init__(self):
-
         self.arr = []
-
         self.prefix = []
 
-  
-
     def push(self, val: int) -> None:
-
         if self.prefix and self.prefix[-1] < val:
-
             self.prefix.append(self.prefix[-1])
-
         else:
-
             self.prefix.append(val)
-
         self.arr.append(val)
 
-  
-
     def pop(self) -> None:
-
         del self.arr[-1]
-
         del self.prefix[-1]
 
-  
-
     def top(self) -> int:
-
         return self.arr[-1]
 
-  
-
     def getMin(self) -> int:
-
         return self.prefix[-1]
+
+
+    def push(self, val: int) -> None:
+        self.stack.append(val)
+        val = min(val, self.minStack[-1] if self.minStack else val)
+        self.minStack.append(val)
+
+
+
+class MinStack:
+    def __init__(self):
+        self.min = float('inf')
+        self.stack = []
+
+    def push(self, val: int) -> None:
+        if not self.stack:
+            self.stack.append(0)
+            self.min = val
+        else:
+            self.stack.append(val - self.min)
+            if val < self.min:
+                self.min = val
+
+    def pop(self) -> None:
+        if not self.stack:
+            return
+
+        pop = self.stack.pop()
+
+        if pop < 0:
+            self.min = self.min - pop
+
+    def top(self) -> int:
+        top = self.stack[-1]
+        if top > 0:
+            return top + self.min
+        else:
+            return self.min
+
+    def getMin(self) -> int:
+        return self.min
+
 ```
