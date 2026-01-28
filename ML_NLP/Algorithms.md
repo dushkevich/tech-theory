@@ -497,3 +497,45 @@ class Solution:
         return True if not st else False
 ```
 
+```python
+class MinStack:
+    def __init__(self):
+
+        self.arr = []
+
+        self.prefix = []
+
+  
+
+    def push(self, val: int) -> None:
+
+        if self.prefix and self.prefix[-1] < val:
+
+            self.prefix.append(self.prefix[-1])
+
+        else:
+
+            self.prefix.append(val)
+
+        self.arr.append(val)
+
+  
+
+    def pop(self) -> None:
+
+        del self.arr[-1]
+
+        del self.prefix[-1]
+
+  
+
+    def top(self) -> int:
+
+        return self.arr[-1]
+
+  
+
+    def getMin(self) -> int:
+
+        return self.prefix[-1]
+```
