@@ -562,3 +562,41 @@ class MinStack:
         return self.min
 
 ```
+
+
+```python
+class Solution:
+    def evalRPN(self, tokens: List[str]) -> int:
+        rnp = []
+
+        for i in range(0, len(tokens)):
+            if tokens[i] in "+-/*":
+                if tokens[i] == '+':
+                    rnp.append(rnp[-2] + rnp[-1])
+                    del rnp[-2]
+                    del rnp[-2]
+
+                elif tokens[i] == '*':
+                    rnp.append(rnp[-2] * rnp[-1])
+                    del rnp[-2]
+                    del rnp[-2]
+
+                elif tokens[i] == '-':
+                    rnp.append(rnp[-2] - rnp[-1])
+                    del rnp[-2]
+                    del rnp[-2]
+
+                elif tokens[i] == '/':
+                    rnp.append(int(rnp[-2] / rnp[-1]))
+                    del rnp[-2]
+
+                    del rnp[-2]
+
+            else:
+
+                rnp.append(int(tokens[i]))
+
+            print(rnp)
+
+        return rnp[-1]
+```
