@@ -589,14 +589,31 @@ class Solution:
                 elif tokens[i] == '/':
                     rnp.append(int(rnp[-2] / rnp[-1]))
                     del rnp[-2]
-
                     del rnp[-2]
 
             else:
-
                 rnp.append(int(tokens[i]))
-
             print(rnp)
-
         return rnp[-1]
+
+
+
+class Solution:
+    def evalRPN(self, tokens: List[str]) -> int:
+        stack = []
+        for c in tokens:
+            if c == "+":
+                stack.append(stack.pop() + stack.pop())
+            elif c == "-":
+                a, b = stack.pop(), stack.pop()
+                stack.append(b - a)
+            elif c == "*":
+                stack.append(stack.pop() * stack.pop())
+            elif c == "/":
+                a, b = stack.pop(), stack.pop()
+                stack.append(int(float(b) / a))
+            else:
+                stack.append(int(c))
+        return stack[0]
+
 ```
