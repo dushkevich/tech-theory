@@ -787,3 +787,23 @@ class Solution:
 
         return -1
 ```
+
+```python
+class TimeMap:
+    def __init__(self):
+        self.base = []
+
+    def set(self, key: str, value: str, timestamp: int) -> None:
+        self.base.append([key, value, timestamp])
+
+    def get(self, key: str, timestamp: int) -> str:
+        for i in range(timestamp, -1, -1):
+            for k in self.base:
+                if k[0] == key and i == k[2]:
+                    return k[1]
+
+        return ""
+
+
+
+```
