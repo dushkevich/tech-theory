@@ -830,3 +830,32 @@ class TimeMap:
 
         return res
 ```
+
+
+# Sliding Window
+
+```python
+class Solution:
+    def maxProfit(self, prices: List[int]) -> int:
+        l, result = 0, 0
+
+        for r in range(len(prices)):
+            result = max(result, prices[r] - prices[l])
+            if prices[r] < prices[l]:
+                l = r
+
+        return result
+
+
+class Solution:
+    def maxProfit(self, prices: List[int]) -> int:
+        maxP = 0
+        minBuy = prices[0]
+
+        for sell in prices:
+            maxP = max(maxP, sell - minBuy)
+            minBuy = min(minBuy, sell)
+        return maxP
+
+```
+
