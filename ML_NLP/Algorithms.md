@@ -928,3 +928,27 @@ class Solution:
         return res
 
 ```
+
+### Permutation in String
+
+```python
+class Solution:
+    def checkInclusion(self, s1: str, s2: str) -> bool
+        k = len(s1)
+        count = defaultdict(list)
+        l = 0
+        true = [0] * 26
+        for i in s1:
+            true[ord(i) - ord('a')] += 1
+
+        for r in range(len(s2)):
+            count = [0] * 26
+            if r - l + 1 > k:
+                l += 1
+            for c in s2[l:r+1]:
+                count[ord(c) - ord('a')] += 1
+            if count == true:
+                return True
+        return False
+
+```
