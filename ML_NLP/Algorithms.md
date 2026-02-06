@@ -935,7 +935,6 @@ class Solution:
 class Solution:
     def checkInclusion(self, s1: str, s2: str) -> bool
         k = len(s1)
-        count = defaultdict(list)
         l = 0
         true = [0] * 26
         for i in s1:
